@@ -1,0 +1,1 @@
+export const PUBLIC_APIS_ENTRIES = 'https://api.publicapis.org/entries';

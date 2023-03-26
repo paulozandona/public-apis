@@ -1,0 +1,24 @@
+.item {
+  width: calc(100% - 2rem);
+  color: #333;
+  padding: 1rem;
+  cursor: pointer;
+}
+.item:hover, .item:focus-visible {
+  color: #fff;
+  background-color: #555;
+  outline: none;
+}
+.title {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 600;
+  padding-bottom: .5rem;
+}
+.title > small {
+  font-size: .75rem;
+}
+.description {
+  font-size: 1rem;
+  line-height: 1.5;
+}
