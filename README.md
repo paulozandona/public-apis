@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Getting Started with the Public APIs Search App / Guida introduttiva all'app di ricerca delle API pubbliche
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was initialized with:\
+Questo progetto è stato inizializzato con:\
+[Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Node.js version used:\
+Versione di Node.js utilizzata:\
+v18.14.2 (also tested with / testato anche con v14.16.0)
 
-In the project directory, you can run:
+## First step / Primo passo
 
+After [cloning the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository), run the command below to install the necessary Node.js modules:
+Dopo aver [clonato il repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository), eseguire il comando seguente per installare i moduli di Node.js necessari:
+`npm install`
+
+## Available Scripts / Script disponibili
+
+In the project directory, run:
+Nella directory del progetto, eseguire:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Esegue l'app in modalità di sviluppo.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
+Apri [http://localhost:3000](http://localhost:3000) per visualizzarlo nel tuo browser.
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
+La pagina verrà ricaricata quando si apportano modifiche.\
+You may also see any lint errors in the console.\
+Potresti anche vedere eventuali errori di lint nella console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the *test runner* in the interactive watch mode.\
+Avvia il *test runner* in modalità di osservazione interattiva.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.\
+Consulta la sezione [sull'esecuzione dei test](https://facebook.github.io/create-react-app/docs/running-tests) per ulteriori informazioni.
 
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Compila l'app per la produzione nella cartella `build`.\
+It correctly bundles React in production mode and optimizes the build for the best performance.\
+Raggruppa correttamente React in modalità di produzione e ottimizza la build per le migliori prestazioni.
 
 The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+La build è minimizzata e i nomi dei file includono gli hash.\
+Your app is ready to be deployed!\
+La tua app è pronta per essere distribuita!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.\
+Consulta la sezione sulla [distribuzione](https://facebook.github.io/create-react-app/docs/deployment) per ulteriori informazioni.
 
-### `npm run eject`
+#### `serve`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run the optimized production build locally, it's possible to use:\
+Per eseguire localmente la build di produzione ottimizzata, è possibile utilizzare:\
+[serve](https://www.npmjs.com/package/serve):
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Run the command below to install it globally:\
+Esegui il comando seguente per installarlo a livello globale:\
+`npm install --global serve`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+After doing that, run the following command inside your project's `build` directory:\
+Dopo averlo fatto, esegui il seguente comando all'interno della directory `build` del tuo progetto:\
+`serve`
