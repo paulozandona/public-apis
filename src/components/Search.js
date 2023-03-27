@@ -69,9 +69,9 @@ const Search = ({ id, disabled, label, hideLabel, onObjectSelected, theme }) => 
         className={styles.results__holder}
         style={{ top: hideLabel ? "2.95rem" : "4.05rem" }}
       >
-        {data.entries.map((item) => (
+        {data.entries.map((item, index) => (
           <SearchResult
-            key={window.crypto.randomUUID()}
+            key={`${item?.API ?? 'API'} ${item?.Link ?? 'Link'} ${index}`}
             item={item}
             onObjectSelected={onObjectSelected}
             resetSelected={handleResetSelected}
